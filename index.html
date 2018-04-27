@@ -8,7 +8,13 @@
 <body>
   <div class="layout">
     <div class="header">
-      <div class="container">Header</div>
+      <div class="container menu">
+        <div class="brand">CSS Playground</div>
+        <a class="menu-item" href="#">Home</a>
+        <a class="menu-item" href="#">Users</a>
+        <a class="menu-item" href="#">Posts</a>
+        <a class="menu-item" href="#">Pages</a>
+      </div>
     </div>
     <div class="main">
       <div class="container grid p-3">
@@ -25,6 +31,24 @@
             <input type="text" />
             <span>Obrigatório</span>
           </div>
+        </div>
+        <div class="col-6">
+          <div class="form-control">
+            <label>Nome</label>
+            <input type="text" />
+            <span>Obrigatório</span>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="form-control">
+            <label>E-mail</label>
+            <input type="text" />
+            <span>Obrigatório</span>
+          </div>
+        </div>
+        <div class="col-12 pt-3">
+          <input type="submit" class="btn primary" value="Enviar Formulário" />
+          <input type="submit" class="btn default" value="Cancelar" />
         </div>
       </div>
     </div>
