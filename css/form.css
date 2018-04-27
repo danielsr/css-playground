@@ -1,0 +1,22 @@
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  padding: var(--size-1);
+}
+
+.form-control label {
+  padding-bottom: var(--size-1)
+}
+
+.form-control input {
+  padding: var(--size-1);
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.form-control span {
+  padding-top: var(--size-1);
+  font-size: 11px;
+  color: red;
+}
