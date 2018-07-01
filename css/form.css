@@ -6,16 +6,17 @@
 }
 
 .form-control label {
-  padding-bottom: var(--size-1)
+  padding: 0px 0px 5px 3px;
+  font-weight: bold;
 }
 
 .form-control input {
-  padding: var(--size-1);
-  border: 1px solid var(--color-dark);
+  padding: 8px;
+  border: 1px solid var(--color-gray-dark);
   border-radius: 3px;
   font-family: var(--font);
-  font-size: 14px;
-  color: var(--color-dark);
+  font-size: 16px;
+  color: var(--color-gray-dark);
 }
 
 .form-control span {
@@ -25,10 +26,15 @@
 }
 
 .btn {
-  padding: var(--size-2);
+  padding: 10px;
   border: 0px;
   border-radius: 3px;
   font-family: var(--font);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
+}
+
+.btn:hover {
+  opacity: 0.85;
+  cursor: pointer;
 }

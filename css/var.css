@@ -1,8 +1,10 @@
 :root {
-  --color-white: #ffffff;
   --color-brand: #2c3e50;
-  --color-default: #bdc3c7;
-  --color-dark: #333333;
+  
+  --color-white: #ffffff;
+  --color-gray-light: #eeeeee;
+  --color-gray: #bdc3c7;
+  --color-gray-dark: #333333;
   --color-primary: #2980b9;
   --color-danger: #c0392b;
   --color-success: #27ae60;

@@ -28,7 +28,7 @@
 }
 
 .menu-item {
-  color: var(--color-default);
+  color: var(--color-gray);
   padding: 15px 15px 0px 15px;
   text-decoration: none;
 }
@@ -44,9 +44,3 @@
   cursor: pointer;
 }
 
-@media (max-width: 600px) {
-  .menu {
-    display: flex;
-    flex-direction: column;
-  }
-}
